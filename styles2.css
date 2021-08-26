@@ -1,0 +1,39 @@
+body {
+  background: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://cdn.britannica.com/q:60/84/203584-050-57D326E5/speed-internet-technology-background.jpg);
+  font-size: 30px;
+  color: rgb(245, 225, 216);
+}
+#title {
+  font-size: 70px;
+  height: 100vh;
+  margin-top: 200px;
+  margin-bottom: -250px;
+  margin-left: 20vh;
+  color: rgb(236, 187, 122);
+}
+#description {
+  color: rgb(229, 215, 194);
+  font-size: 2em;
+}
+#name-label,
+#email-label,
+#number-label,
+#dropdown {
+  width: 10em;
+  height: 5em;
+}
+#changeColor {
+  color: rgb(231, 209, 209);
+}
+#comment {
+  font-size: 20px;
+}
+#submit {
+  height: 60px;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
