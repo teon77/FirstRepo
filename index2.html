@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css"></link>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+         <h1 id="title">Eithan's Survey Form</h1>
+             <p id="description">
+         Hey, my name is Eithan Refaely,<br>
+         Im a Full-Stack Developer.<br>
+         Here is my Survey Form.
+             </p>
+    </header>
+    <div>
+        <form id="survey-form">
+            <label for="name" id="name-label"> Full Name
+             <div>
+                 <input type="text" 
+                      name="name"
+                      id="name"
+                      placeholder="Enter your name"
+                      required>
+            </div> 
+             </label> 
+            <br>
+            <label for="email" id="email-label"> Email
+              <div>     
+                 <input type="email"
+                        name="Email"
+                        id="email"
+                        placeholder="Enter your Email"
+                        required>
+             </div> 
+            </label>
+            <br>
+              <label for="age" id="number-label"> Age
+                   <div>
+                  <input type="number"
+                         min="3" max="99"
+                         id="number"
+                         placeholder="Age"
+                         required
+                     >
+             </div>
+            </label>
+            <br>
+            <div>
+                <p>How Did You Get You Coding Education ?</p>
+                     <select id="dropdown" name="role" required>
+                  <option disabled selected value>Select an Option</option>
+                  <option value="University">University</option>
+                  <option value="job">At my first Job</option>
+                  <option value="Course">Online Course</option>
+                  <option value="preferNo">Prefer not to say</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <br>
+              <span id ="changeColor">
+              <div>
+                <p><b>You think its important to get a University Degree ? </b></p>
+                <label>
+                  <input
+                    name="important"
+                    value="Yes"
+                    type="radio"
+                    checked
+                  />Yes</label
+                >
+                <label>
+                  <input
+                    name="important"
+                    value="No"
+                    type="radio"
+                  />No</label
+                >
+          
+                <label
+                  ><input
+                    name="important"
+                    value="options"
+                    type="radio"
+                  />There are other options</label
+                >
+              </div>
+            <br>
+            <div>
+                <p><b>What Do You Think Is The Next Big Thing In Technology ?</b></p>
+                <label>
+                    <input type="checkbox"
+                     name="Technology"
+                     id="ai"
+                     value="AI"
+                     >ArtiFicial Intellegence
+                </label>
+                <label>
+                    <input type="checkbox"
+                     name="Technology"
+                     id="space"
+                     value="Space"
+                     >Space Exploration
+                </label>
+                <br>
+                <label>
+                    <input type="checkbox"
+                     name="Technology"
+                     id="cyber"
+                     value="Cyber4s Number 3"
+                     >Cyber4s Number 3
+                </label>
+                <label>
+                    <input type="checkbox"
+                     name="Technology"
+                     id="brain"
+                     value="Brain Research"
+                     >Human Brain Research
+                </label>
+            </div>
+            <br>
+            <div>
+                <p><b>Please let me know if you have any additional comments</b></p>
+                <textarea 
+                  name="comment" 
+                  id="comment" 
+                  cols="30" 
+                  rows="10"
+                  placeholder="You can leave here additional comments."></textarea>
+            </div>
+        </span>
+            <br>
+            <button id="submit">Submit</button>
+        </form>
+             </div>
+    </div>
+</body>
+</html>
